@@ -66,7 +66,7 @@ if __name__ == '__main__':
         #交换机具备backup命令的telnet用户
         username = 'admin'
         #该用户密码
-        password = 'juhui@info'
+        password = 'admin'
         #tftp服务器地址
         ftphost ='172.24.40.38'
         filename = ip.replace('.','.')+ '-'+datetime.date.today().strftime('%Y%m%d')+'.cfg'
